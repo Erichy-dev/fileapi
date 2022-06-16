@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "compilets-tojs": "npx tsc --project ./",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "formidable": "^2.0.1",
+    "is-hidden-file": "^1.1.2",
+    "typescript": "^4.7.3"
+  }
+}
